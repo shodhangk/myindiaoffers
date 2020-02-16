@@ -162,11 +162,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #a64bf4;
-  background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  background: red;
+  background: -webkit-linear-gradient(45deg, #FF0092, red);
+  background: -o-linear-gradient(45de #FF0092, red);
+  background: -moz-linear-gradient(45deg #FF0092, red);
+  background: linear-gradient(45deg, #FF0092, red);
   
 }
 
@@ -175,7 +175,7 @@ iframe {
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  padding: 42px 55px 45px 55px;
+  padding: 15px 55px 45px 55px;
 }
 
 
@@ -189,7 +189,7 @@ iframe {
 .contact100-form-title {
   display: block;
   font-family: Poppins-Bold;
-  font-size: 39px;
+  font-size: 24px;
   color: #333333;
   line-height: 1.2;
   text-align: center;
@@ -211,7 +211,7 @@ iframe {
 
 .label-input100 {
   font-family: Poppins-Regular;
-  font-size: 13px;
+  font-size: 18px;
   color: #666666;
   line-height: 1.5;
   padding-left: 5px;
@@ -306,11 +306,11 @@ textarea.input100 {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background: #a64bf4;
-  background: -webkit-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -o-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: #FF0092;
+  background: -webkit-linear-gradient(left, red, #FF0092, red, #FF0092);
+  background: -o-linear-gradient(left, red, #FF0092, red, #FF0092);
+  background: -moz-linear-gradient(left, red, #FF0092, red, #FF0092);
+  background: linear-gradient(left, red, #FF0092, red, #FF0092);
   top: 0;
   left: -100%;
 
@@ -362,7 +362,7 @@ textarea.input100 {
 
 @media (max-width: 576px) {
   .wrap-contact100 {
-    padding: 72px 15px 65px 15px;
+    padding: 15px 15px 65px 15px;
   }
 }
 
@@ -3551,5 +3551,18 @@ textarea.input100 {
 	bottom: 0px;
 }
 
+.mio-logo {
+	width: 110px;
+}
+
+.mio-logo-container {
+	text-align: center;
+	padding: 10px;
+}
+
+
+.place-select {
+	width: 100%;
+}
 
 
